@@ -1,9 +1,13 @@
 package inheritanceExample;
 
+import accessModifiers.PrentClass;
+
 public class ChildClass1 extends ParentClass{
 	
-	public void display() {
-		System.out.println("from child class");
+	public static void main(String args[]) {
+		PrentClass p = new PrentClass();
+		p.print();
 	}
+
 
 }
